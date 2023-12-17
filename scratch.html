@@ -1,0 +1,37 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="design.css">
+  <title>Scratch</title>
+</head>
+<body>
+  <button type="button" class="btn btn-primary" onclick="toggleActiveClass()">
+    Notifications <span class="badge text-bg-secondary">5</span>
+  </button>
+  <h1>Welcome!</h1>
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="country.html" onclick="showAlert()">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html" onclick="showAlert()">About Us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" onclick="showAlert()">Contacts</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+    </li>
+  </ul>
+
+  <!-- Link to External JavaScript File -->
+  <script src="decorate.js"></script>
+</body>
+</html>
+
+
+
